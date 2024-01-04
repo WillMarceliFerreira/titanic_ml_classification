@@ -2,7 +2,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 
-plt.switch_backend('TKAgg')
 
 class EasyVisualize:
     def __init__(self, data):
