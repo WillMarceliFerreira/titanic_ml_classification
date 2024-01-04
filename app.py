@@ -1,8 +1,5 @@
 # Importing necessary libraries
 import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 from page_contents import business_understanding, load_data, data_understanding, data_preparation, modeling, evaluation, prediction
 import pickle
 
