@@ -15,7 +15,7 @@ st.set_page_config('Titanic Dataset Analysis and Modeling', layout='wide')
 # Sidebar content
 with st.sidebar:
     st.header('Titanic Analysis and Modeling')
-    st.image('logo.png')
+    st.image('./assets/logo.png')
     st.write('---')
     step = st.radio(
         'Choose the step you want to see: ',
