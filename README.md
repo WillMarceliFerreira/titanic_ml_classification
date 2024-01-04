@@ -36,11 +36,11 @@ streamlit run app.py
 - A prediction feature where users can input passenger data to predict survival.
 
 ## File Descriptions
-**app.py**: Main Streamlit application script.
-**page_contents.py**: Contains functions that define the content for each page of the Streamlit app.
-**visualization.py**: Includes the EasyVisualize class for creating various types of plots.
-**scaler.pkl**: Pre-trained scaler model for data preparation.
-**model.pkl**: Pre-trained machine learning model for making predictions.
+- **app.py**: Main Streamlit application script.
+- **page_contents.py**: Contains functions that define the content for each page of the Streamlit app.
+- **visualization.py**: Includes the EasyVisualize class for creating various types of plots.
+- **scaler.pkl**: Pre-trained scaler model for data preparation.
+- **model.pkl**: Pre-trained machine learning model for making predictions.
 
 ## Dataset
 The Titanic dataset used in this project is sourced from Kaggle. It includes passenger details such as age, sex, fare, class, and survival status.
